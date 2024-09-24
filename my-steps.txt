@@ -1,0 +1,129 @@
+### Step 2A
+zhafiz@Zee ~ % pwd
+/Users/zhafiz
+zhafiz@Zee ~ % 
+
+
+
+### Step 2B
+	cd Desktop
+
+
+### Step 2C
+cd unit1-git-practice
+
+
+
+### Step 2D
+pwd
+
+
+### Step 2E
+ls
+
+
+### Step 2F
+my-steps.txt
+
+
+### Step 2G
+cd /
+
+### Step 2H
+zhafiz@Zee / % pwd
+/
+zhafiz@Zee / % 
+
+
+### Step 2I
+
+zhafiz@Zee / % ls
+Applications	Volumes		etc		sbin
+Library		bin		home		tmp
+System		cores		opt		usr
+Users		dev		private		var
+zhafiz@Zee / % 
+
+
+### Step 2J
+
+cd ~
+
+### Step 2K
+zhafiz@Zee ~ % cd Desktop/unit1-git-practice
+
+zhafiz@Zee unit1-git-practice % 
+
+
+
+### Step 3A
+zhafiz@Zee unit1-git-practice % mkdir veggies meats desserts
+
+### Step 3B
+zhafiz@Zee unit1-git-practice % mv desserts sweets
+
+### Step 3C
+zhafiz@Zee unit1-git-practice % mkdir proteins
+
+### Step 3D
+zhafiz@Zee unit1-git-practice % mv meats proteins/
+
+
+### Step 3E
+zhafiz@Zee unit1-git-practice % cd veggies
+zhafiz@Zee veggies % touch carrot.txt pea.txt
+
+
+### Step 3F
+zhafiz@Zee veggies % cd ..
+zhafiz@Zee unit1-git-practice % cd sweets
+zhafiz@Zee sweets % touch cookie.txt
+
+
+### Step 3G
+zhafiz@Zee sweets % mv cookie.txt donut.txt
+
+
+
+### Step 3H
+zhafiz@Zee sweets % cd ..
+zhafiz@Zee unit1-git-practice % touch thing.txt
+
+
+### Step 3I
+zhafiz@Zee unit1-git-practice % cp thing.txt tofu.txt
+
+
+### Step 3J
+
+zhafiz@Zee unit1-git-practice % mv tofu.txt proteins
+
+
+### Step 3K
+zhafiz@Zee unit1-git-practice % cp thing.txt crab.txt 
+zhafiz@Zee unit1-git-practice % mv crab.txt proteins/meats/
+
+
+### Step 3L
+zhafiz@Zee unit1-git-practice % rm thing.txt
+
+### Step 3M
+zhafiz@Zee unit1-git-practice % cp -r veggies plants
+
+### Step 3N
+zhafiz@Zee unit1-git-practice % mkdir drinks
+zhafiz@Zee unit1-git-practice % rmdir drinks
+
+
+
+### Step 4
+
+
+### Step 5
+
+
+### Step 6
+
+
+### Step 7
+*** DO NOT RECORD STEP 7 ***
