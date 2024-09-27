@@ -117,10 +117,41 @@ zhafiz@Zee unit1-git-practice % rmdir drinks
 
 
 ### Step 4
+zhafiz@Zee unit1-git-practice % cd ~/Desktop/unit1-git-practice 
+zhafiz@Zee unit1-git-practice % git init
+Initialized empty Git repository in /Users/zhafiz/Desktop/unit1-git-practice/.git/
+zhafiz@Zee unit1-git-practice % git add .
+zhafiz@Zee unit1-git-practice % git commit -m 'first commit'
+[main (root-commit) fe9b5cf] first commit
+ 12 files changed, 129 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/.DS_Store
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 proteins/.DS_Store
+ create mode 100644 proteins/meats/crab.txt
+ create mode 100644 proteins/tofu.txt
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/.DS_Store
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
 
 
 ### Step 5
-
+zhafiz@Zee unit1-git-practice % git push -u origin main
+Username for 'https://github.com': zhafiz01
+Password for 'https://zhafiz01@github.com': 
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (11/11), 1.55 KiB | 1.55 MiB/s, done.
+Total 11 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/zhafiz01/unit1-git-practice.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
 
 ### Step 6
 
