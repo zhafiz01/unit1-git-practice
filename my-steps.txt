@@ -154,6 +154,20 @@ To https://github.com/zhafiz01/unit1-git-practice.git
 branch 'main' set up to track 'origin/main'.
 
 ### Step 6
+zhafiz@Zee unit1-git-practice % git commit -m 'starting a menu'
+[main 7294afb] starting a menu
+ 2 files changed, 32 insertions(+), 1 deletion(-)
+ create mode 100644 menu.txt
+zhafiz@Zee unit1-git-practice % git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 935 bytes | 935.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/zhafiz01/unit1-git-practice.git
+   fe9b5cf..7294afb  main -> main
 
 
 ### Step 7
